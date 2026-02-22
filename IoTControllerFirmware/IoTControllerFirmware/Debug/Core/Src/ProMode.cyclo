@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm4.h:1933:34:__NVIC_SystemReset	1
+../Core/Src/ProMode.c:61:6:Programming_Mode	5
+../Core/Src/ProMode.c:188:6:Write_data_in_BKUPR	1
+../Core/Src/ProMode.c:195:6:Prepare_AttemptsBKUP	3
+../Core/Src/ProMode.c:215:27:Uart_recevie_config	10
+../Core/Src/ProMode.c:273:21:Validate_received_config	5
+../Core/Src/ProMode.c:303:21:Validate_parameters_range	21
+../Core/Src/ProMode.c:356:6:Copy_recevied_data	1
+../Core/Src/ProMode.c:374:16:Save_Config_In_Flash	19
+../Core/Src/ProMode.c:471:16:Write_One_Array_In_Flash	3

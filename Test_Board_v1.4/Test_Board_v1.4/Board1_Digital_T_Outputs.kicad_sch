@@ -1,0 +1,1281 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f5fe5b64-195e-4174-995c-660e089dea05")
+	(paper "A4")
+	(lib_symbols
+		(symbol "TBD62083AFWG:TBD62083AFWG"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TBD62083AFWG"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P1032X285-18N"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.85"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TBD62083AFWG"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-TBD62083AFWG"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TBD62083AFWG_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "O8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -20.32 180)
+					(length 5.08)
+					(name "COMMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TBD62083AFWG_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -22.86) (xy 5.08 -22.86) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 64.77 102.87) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d621af-ab45-4e41-bbd0-e4fcca2d0bac")
+	)
+	(wire
+		(pts
+			(xy 64.77 97.79) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebea376-3850-4b74-8018-e34a8f03407d")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a192ef-d437-4edc-b2bb-725702fa6f74")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e92526-4001-4022-a2c4-fc2a570c77b2")
+	)
+	(wire
+		(pts
+			(xy 87.63 118.11) (xy 87.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bc616b-dada-4877-8761-17f8f8c5f722")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55464e41-7217-4ef4-b18b-f0131b943f9f")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af69ed1-8184-4bd1-8c65-ba3699c466a3")
+	)
+	(wire
+		(pts
+			(xy 118.11 97.79) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddab667-db9e-4054-bd4a-c41478073b05")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fbbac2-da5e-4e41-8f06-59a206ea5835")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4628a4-f709-4f33-98ec-73c17eff4bd3")
+	)
+	(wire
+		(pts
+			(xy 64.77 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf23fd3-ed6c-47ff-96e7-2ad33eabea40")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9357cefd-02ac-4431-b841-b745507d82d3")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b402f61-3d4f-4a64-8e82-f8ac39faba0b")
+	)
+	(wire
+		(pts
+			(xy 64.77 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a449b87a-5fb1-426c-8aa7-2e431524e5e0")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2c05ff-6650-462f-bfb8-3a410a1fd263")
+	)
+	(wire
+		(pts
+			(xy 118.11 102.87) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b812fb7c-a495-497a-8c28-d5cc070296fa")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb8678d-7171-4d0e-8af9-88dd444a7fdd")
+	)
+	(wire
+		(pts
+			(xy 64.77 107.95) (xy 87.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5ca967-4651-4ea5-8d38-343e2643b70c")
+	)
+	(hierarchical_label "12V_1"
+		(shape input)
+		(at 118.11 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e5a9701-faa1-443f-9913-30c622851f53")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 87.63 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "330aee67-a098-4306-8260-fe08e41cb118")
+	)
+	(hierarchical_label "OUTPUT_10_LINE"
+		(shape output)
+		(at 129.54 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34edb59b-a703-4e5d-8724-1ac955b26ae4")
+	)
+	(hierarchical_label "OUTPUT_7_DIGITAL_T"
+		(shape input)
+		(at 64.77 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "356a4371-170b-4dc5-bcef-d6963d53fa14")
+	)
+	(hierarchical_label "OUTPUT_5_LINE"
+		(shape output)
+		(at 129.54 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "367656f2-c8b0-4be4-9f95-6f7b350ed777")
+	)
+	(hierarchical_label "OUTPUT_11_LINE"
+		(shape output)
+		(at 129.54 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e24b8b-e2fc-43fd-8fc0-ee2bf4e83546")
+	)
+	(hierarchical_label "OUTPUT_4_LINE"
+		(shape output)
+		(at 129.54 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42b89234-7cda-4ccd-be66-a5a005546f7d")
+	)
+	(hierarchical_label "OUTPUT_4_DIGITAL_T"
+		(shape input)
+		(at 64.77 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "439e4bce-75f3-430f-8af4-931c56db111d")
+	)
+	(hierarchical_label "OUTPUT_11_PWM_T"
+		(shape input)
+		(at 64.77 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "575b9a58-d212-4748-b601-98749f96aab7")
+	)
+	(hierarchical_label "OUTPUT_5_DIGITAL_T"
+		(shape input)
+		(at 64.77 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60fff7d8-5a57-4cf3-86e8-92f5dc3c12b9")
+	)
+	(hierarchical_label "OUTPUT_6_LINE"
+		(shape output)
+		(at 129.54 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a4baeeb-685a-4d4f-81b6-b1475df613ef")
+	)
+	(hierarchical_label "OUTPUT_8_DIGITAL_T"
+		(shape input)
+		(at 64.77 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88848dc1-b471-4186-b8f0-b8db5d7191f0")
+	)
+	(hierarchical_label "OUTPUT_6_DIGITAL_T"
+		(shape input)
+		(at 64.77 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90b35c72-beba-440a-bc66-4d45dc3dc604")
+	)
+	(hierarchical_label "OUTPUT_9_LINE"
+		(shape output)
+		(at 129.54 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5815251-53e4-48a6-8ff7-c90f00c78780")
+	)
+	(hierarchical_label "OUTPUT_10_PWM_T"
+		(shape input)
+		(at 64.77 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a676d944-0947-4bf0-85da-45902328ba12")
+	)
+	(hierarchical_label "OUTPUT_9_PWM_T"
+		(shape input)
+		(at 64.77 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8994914-e615-497f-8be0-7ee2e41935c9")
+	)
+	(hierarchical_label "OUTPUT_8_LINE"
+		(shape output)
+		(at 129.54 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c26f718c-3661-47f2-ad05-f78fca35e369")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 87.63 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7b8a32f-091b-4304-b962-6ebe470c6907")
+	)
+	(hierarchical_label "12V_1"
+		(shape input)
+		(at 118.11 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef9a80f8-4c75-4fc8-8763-5e0db1a5c3c8")
+	)
+	(hierarchical_label "OUTPUT_7_LINE"
+		(shape output)
+		(at 129.54 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f720fcfd-72c7-4161-8ca1-2ef72ebf5967")
+	)
+	(symbol
+		(lib_id "TBD62083AFWG:TBD62083AFWG")
+		(at 87.63 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a9a69f-d808-4f09-90f1-b1cb4ae43f7c")
+		(property "Reference" "Q2"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62083AFWG"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBD62083AFWG-TOSHIBA_IC_driver:SOIC127P1032X285-18N"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 114.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.85"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBD62083AFWG"
+			(at 114.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TBD62083AFWG"
+			(at 114.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "77f3dc88-60dc-48ec-9b1b-81c11856af55")
+		)
+		(pin "10"
+			(uuid "e3cd6234-90cf-4479-b6b4-1453267942e8")
+		)
+		(pin "8"
+			(uuid "4a2d03b1-429c-464b-81e9-2524b217d12e")
+		)
+		(pin "3"
+			(uuid "9f9b3d46-e2ef-4ee9-8b46-16352fcbb0e8")
+		)
+		(pin "6"
+			(uuid "0ba819af-5898-4aa9-81d0-0ea3f3e7e80e")
+		)
+		(pin "7"
+			(uuid "c7a03273-f72b-4ede-aa70-821874301b4b")
+		)
+		(pin "16"
+			(uuid "582f2283-9ca2-413b-983b-432724cb98a8")
+		)
+		(pin "15"
+			(uuid "fe62f954-7c2a-4e4b-a76f-6e280ee0a866")
+		)
+		(pin "18"
+			(uuid "b2ef1f41-ab9f-449e-a94f-9603a0db1fe5")
+		)
+		(pin "17"
+			(uuid "3dee3e23-af6f-4839-850b-06da0ca84cda")
+		)
+		(pin "13"
+			(uuid "d5fd5fd6-c295-490c-956b-413315ffb260")
+		)
+		(pin "5"
+			(uuid "d77c4fff-bbf6-4273-9d13-5e42833b9507")
+		)
+		(pin "12"
+			(uuid "b286fd94-d6e2-4923-b6f0-86ccfae19aae")
+		)
+		(pin "1"
+			(uuid "716e8795-9a33-4085-9be2-7da54c039b65")
+		)
+		(pin "2"
+			(uuid "49264d57-5a75-4446-b7e3-f8b32b4dec93")
+		)
+		(pin "9"
+			(uuid "f97dc097-dabc-40a2-b429-f001fabec1e5")
+		)
+		(pin "4"
+			(uuid "ae50b817-d7ab-47ea-a797-f091fbfb1218")
+		)
+		(pin "11"
+			(uuid "ed4dd083-3aa3-4144-8e48-8326fefb715c")
+		)
+		(instances
+			(project "Board_1"
+				(path "/4b2d3c0e-7fa9-4f46-beb6-9f719f9576ec/64d45b14-8200-44f6-b768-05a1131a55de"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBD62083AFWG:TBD62083AFWG")
+		(at 87.63 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e3769f-b4b9-427e-9705-b69ec97d0901")
+		(property "Reference" "Q1"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62083AFWG"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBD62083AFWG-TOSHIBA_IC_driver:SOIC127P1032X285-18N"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.85"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBD62083AFWG"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TBD62083AFWG"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "775d38c8-20fd-4568-8c6b-ba203d780166")
+		)
+		(pin "10"
+			(uuid "8072e785-b7b6-462b-a40d-9cded4c07e3b")
+		)
+		(pin "8"
+			(uuid "bec10ee0-090c-4fac-9f5e-4a4df00ab219")
+		)
+		(pin "3"
+			(uuid "712d8750-e0bd-4ed5-b279-a249ee9e5365")
+		)
+		(pin "6"
+			(uuid "b08c4f83-0e2b-4888-8f07-94ec9c914fe9")
+		)
+		(pin "7"
+			(uuid "4d7e8f39-0291-42bd-9f77-568b144df637")
+		)
+		(pin "16"
+			(uuid "272078f9-c49e-4734-afd2-718bfcc67288")
+		)
+		(pin "15"
+			(uuid "25e1684d-82fd-4a23-91a3-f184f356356c")
+		)
+		(pin "18"
+			(uuid "dbc0bc57-8788-4a25-ae3b-1a7738dfbab0")
+		)
+		(pin "17"
+			(uuid "65028147-1736-4cdd-abf1-cd522a2785ec")
+		)
+		(pin "13"
+			(uuid "6ffca879-30ee-47a2-b767-2ff4cebca797")
+		)
+		(pin "5"
+			(uuid "8412bfda-7d13-4fc5-8472-53b22ecd61ed")
+		)
+		(pin "12"
+			(uuid "170a9ea2-53f8-46fd-a521-f01bda2e3ed2")
+		)
+		(pin "1"
+			(uuid "93c8c7ad-492d-4e46-88fc-1da979a18a74")
+		)
+		(pin "2"
+			(uuid "4cb6c9a9-d042-4150-b8d3-2a40bbbe3202")
+		)
+		(pin "9"
+			(uuid "699f28da-9357-40e7-98cf-aa060c7482f3")
+		)
+		(pin "4"
+			(uuid "a29ad7f0-f0e9-427f-a874-a698d563ca32")
+		)
+		(pin "11"
+			(uuid "c74c4623-f5f0-4464-9f07-056acc7f4607")
+		)
+		(instances
+			(project ""
+				(path "/4b2d3c0e-7fa9-4f46-beb6-9f719f9576ec/64d45b14-8200-44f6-b768-05a1131a55de"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

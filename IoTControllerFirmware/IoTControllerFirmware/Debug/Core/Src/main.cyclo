@@ -1,0 +1,8 @@
+../Core/Src/main.c:79:5:main	2
+../Core/Src/main.c:156:6:SystemClock_Config	4
+../Core/Src/main.c:206:6:PeriphCommonClock_Config	2
+../Core/Src/main.c:228:6:Is_Flag_On	4
+../Core/Src/main.c:254:10:SetFlag	4
+../Core/Src/main.c:283:10:Get_Line_First_Addr	1
+../Core/Src/main.c:290:10:Get_Next_Addr_In_Line	1
+../Core/Src/main.c:303:6:Error_Handler	1

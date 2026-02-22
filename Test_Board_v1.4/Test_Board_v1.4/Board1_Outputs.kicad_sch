@@ -1,0 +1,1079 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3db6c649-1601-4272-85f6-de41eabff001")
+	(paper "A4")
+	(lib_symbols
+		(symbol "TBD62083AFWG:TBD62083AFWG"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TBD62083AFWG"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOIC127P1032X285-18N"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.85"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TBD62083AFWG"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-TBD62083AFWG"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TBD62083AFWG_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "O8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -20.32 180)
+					(length 5.08)
+					(name "COMMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TBD62083AFWG_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -22.86) (xy 5.08 -22.86) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "TBD62083AFWG:TBD62083AFWG")
+		(at 92.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96ff5edc-052d-4d2e-afa7-82a750a7f3f6")
+		(property "Reference" "U9"
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62083AFWG"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1032X285-18N"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.85"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBD62083AFWG"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TBD62083AFWG"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+			(at 119.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420b3c8e-0bc3-4306-a4d4-1b1e2d42f4bd")
+		)
+		(pin "12"
+			(uuid "d3412b8d-ab61-4005-b9ea-11d992b7d310")
+		)
+		(pin "14"
+			(uuid "4968e1b5-8382-4cfe-944b-25d6dfd53417")
+		)
+		(pin "13"
+			(uuid "404270de-4a47-400f-a19e-646250d00a7c")
+		)
+		(pin "17"
+			(uuid "c9d02d17-b2a7-4a91-94fb-fed31c1a155b")
+		)
+		(pin "2"
+			(uuid "cd19082d-1903-4dd1-91cb-8075ebd64c89")
+		)
+		(pin "3"
+			(uuid "6ce32b3b-f56e-4b64-b636-82fa44c4b6ed")
+		)
+		(pin "8"
+			(uuid "5f8539f4-897c-4e8b-b148-c4644288fce5")
+		)
+		(pin "11"
+			(uuid "eaf76f18-a8a6-4c14-adaa-9e63dc612e98")
+		)
+		(pin "4"
+			(uuid "6682491a-04fd-4cfe-8915-9de39c65be48")
+		)
+		(pin "18"
+			(uuid "44a0d379-a24d-4c31-a540-43739633e584")
+		)
+		(pin "10"
+			(uuid "799db667-e36d-49c6-a44e-87b0a6f3c358")
+		)
+		(pin "7"
+			(uuid "6aa0afaa-87ce-4d9d-9e4e-0a612f6945db")
+		)
+		(pin "6"
+			(uuid "a766fec0-5e59-4c84-9a10-ad7d6f24b307")
+		)
+		(pin "15"
+			(uuid "fa851b82-b709-41dc-9928-9f2dcd550e2e")
+		)
+		(pin "16"
+			(uuid "dca8eb6f-eaf4-4133-af82-42df0a8dcaaf")
+		)
+		(pin "5"
+			(uuid "f1051681-6e0a-466e-b0e1-c94b19acf624")
+		)
+		(pin "9"
+			(uuid "405eff9b-754c-4143-8529-ed3012cabe59")
+		)
+		(instances
+			(project "Board_1"
+				(path "/4b2d3c0e-7fa9-4f46-beb6-9f719f9576ec/e01df4df-c5ed-4b9b-be92-e835f7df29ef"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBD62083AFWG:TBD62083AFWG")
+		(at 93.98 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6f675e1-1fbd-4adb-a219-2d3b210883a2")
+		(property "Reference" "U8"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62083AFWG"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1032X285-18N"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.85"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBD62083AFWG"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TBD62083AFWG"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f89b01f-5e5f-4179-9414-a8d9d0002880")
+		)
+		(pin "12"
+			(uuid "8713aa39-f201-4b3c-bdec-581567b94e23")
+		)
+		(pin "14"
+			(uuid "df39a0d9-ade6-4af8-947d-d445a4144ae7")
+		)
+		(pin "13"
+			(uuid "b856d773-f173-455c-ae99-503c8cdcdef1")
+		)
+		(pin "17"
+			(uuid "430d2720-e72f-4efe-a85d-1bf0b912b0aa")
+		)
+		(pin "2"
+			(uuid "025502e9-68d3-41a9-8cb4-1475e423bc74")
+		)
+		(pin "3"
+			(uuid "2dce6545-8bf2-4833-96d8-ca5285d13d12")
+		)
+		(pin "8"
+			(uuid "314b1144-be37-4ca0-85e7-3fe4644826f4")
+		)
+		(pin "11"
+			(uuid "f6b31d59-88be-47e7-bbf9-4604d5f5a609")
+		)
+		(pin "4"
+			(uuid "19b602b0-1a92-4395-bbea-a265a1eaeda8")
+		)
+		(pin "18"
+			(uuid "576ec505-9b76-48d2-86a0-811308f84646")
+		)
+		(pin "10"
+			(uuid "61038ddb-ce7b-4f31-966b-ef375d4c7378")
+		)
+		(pin "7"
+			(uuid "ed95e85a-9111-42be-82a0-019f08c914e6")
+		)
+		(pin "6"
+			(uuid "305cb984-88bc-45a4-a200-6d0d34b21a94")
+		)
+		(pin "15"
+			(uuid "aa069ed9-20be-4a70-b303-6a7861b3ce26")
+		)
+		(pin "16"
+			(uuid "b80efd25-afff-4dfd-af5f-6c0ede3d077d")
+		)
+		(pin "5"
+			(uuid "2e2fee8b-db08-47e3-8b58-e0fea668f1f7")
+		)
+		(pin "9"
+			(uuid "21ff787e-00eb-48d7-9458-0ccd98982fd5")
+		)
+		(instances
+			(project "Board_1"
+				(path "/4b2d3c0e-7fa9-4f46-beb6-9f719f9576ec/e01df4df-c5ed-4b9b-be92-e835f7df29ef"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBD62083AFWG:TBD62083AFWG")
+		(at 95.25 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7553e24-cf39-4804-aff9-61fc3d20f0ce")
+		(property "Reference" "U7"
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD62083AFWG"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1032X285-18N"
+			(at 121.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/eu/semiconductor/product/linear-ics/transistor-arrays/detail.TBD62083AFWG.html"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Power Switch/Driver 1:1 N-Channel 500mA 18-SOP"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.85"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBD62083AFWG"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-TBD62083AFWG"
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TBD62083AFWG?qs=By6Nw2ByBD0jQlk9uKukRw%3D%3D"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 121.92 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 121.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "662cf018-7ed3-44d3-a5ad-ec53d3563963")
+		)
+		(pin "12"
+			(uuid "f1a43ab6-dcb5-4ad2-af17-b2260eb0f021")
+		)
+		(pin "14"
+			(uuid "92b52195-b54c-4dc1-85e6-a00a99942f29")
+		)
+		(pin "13"
+			(uuid "344b3fae-93a8-45e6-b2b7-dcd353db45fc")
+		)
+		(pin "17"
+			(uuid "6e1e3741-dee9-47b9-83f1-b12e03abec2e")
+		)
+		(pin "2"
+			(uuid "0efe818f-72bb-44e8-ba66-7090eae1dafb")
+		)
+		(pin "3"
+			(uuid "01d58d88-1f0c-4e19-9d9b-982847319900")
+		)
+		(pin "8"
+			(uuid "ef35f06e-48f0-486b-8626-24874aabcda4")
+		)
+		(pin "11"
+			(uuid "fe44b0d1-c3a2-4af7-8b7a-3c4fe8a2264f")
+		)
+		(pin "4"
+			(uuid "c9f28b33-bde3-48f5-b899-c006911de349")
+		)
+		(pin "18"
+			(uuid "6f08e461-77d3-4e6a-bc48-93e1b8749d19")
+		)
+		(pin "10"
+			(uuid "733e1238-4242-49dc-8689-605ff65e5e49")
+		)
+		(pin "7"
+			(uuid "4ed5a7b4-ceea-4d2c-afdc-7d2ff19a6efc")
+		)
+		(pin "6"
+			(uuid "ee2b8004-db08-4dea-9b94-8a5accfacc0e")
+		)
+		(pin "15"
+			(uuid "6ce11359-a4c8-4cea-ba82-f636207aceb2")
+		)
+		(pin "16"
+			(uuid "510e8d52-4b7e-49dd-abc1-47d6c7dd502c")
+		)
+		(pin "5"
+			(uuid "7457ddf3-e41d-4398-9239-76830b215d2c")
+		)
+		(pin "9"
+			(uuid "686207f4-0098-4253-889e-d3d0ad7f5d2d")
+		)
+		(instances
+			(project ""
+				(path "/4b2d3c0e-7fa9-4f46-beb6-9f719f9576ec/e01df4df-c5ed-4b9b-be92-e835f7df29ef"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
